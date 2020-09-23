@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+    <style>
+        .topnav {
+            overflow: hidden;
+            margin-left: 527px;
+
+        }
+
+        .topnav a {
+            float: left;
+            color: grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+
+        .topnav a:hover {
+            color: black;
+        }
+
+        .topnav a.active {
+            color: #4d9900;
+            font-size: 19px;
+        }
+
+        #background {
+            background-image: radial-gradient(circle farthest-corner at 18.7% 37.8%, rgba(250, 250, 250, 1) 0%, rgba(225, 234, 238, 1) 90%);
+        }
+
+        .about-h1 {
+            margin-left: 300px;
+        }
+
+        .green-line {
+            border: 1px solid #4d9900;
+            width: 50px;
+            margin-right: 1070px;
+        }
+
+        p {
+            width: 400px;
+            font-weight: normal;
+        }
+
+        .david {
+            max-width: 400px;
+            max-height: 400px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .table {
+            margin-left: 80px;
+        }
+
+        .contact {
+            background-color: #2E8B57;
+            border-radius: 30px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+
+            font-size: 16px;
+
+            cursor: pointer;
+            box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+
+        }
+    </style>
+</head>
+<body id="background">
+
+<div class="topnav">
+    <a href="principal.html">Home</a>
+    <a class="active" href="about_me.html">Sobre mim</a>
+    <a href="form.html">Contato</a>
+    <a href="#about">Services</a>
+</div>
+
+<h1 class="about-h1">About me</h1>
+<hr class="green-line">
+<table class="table">
+    <tr>
+        <th>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie, lacus vitae pellentesque
+                finibus, magna felis hendrerit sapien, quis gravida ipsum augue nec leo. Maecenas faucibus nibh in metus
+                gravida eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat scelerisque
+                erat sed aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Ut eu cursus nisl, in consequat ligula. Suspendisse eget mi at eros commodo varius in sed leo.
+                Maecenas non fringilla ipsum. Pellentesque at ultricies quam. Pellentesque congue, tellus eget fringilla
+                tristique, nisl metus mollis urna, nec rutrum libero lacus eu elit. Suspendisse tincidunt, mi ut
+                pulvinar rhoncus, orci odio suscipit massa, nec sodales augue neque vel urna. Suspendisse potenti. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim condimentum nibh quis iaculis.
+                Aliquam erat volutpat. Mauris maximus cursus augue eu tristique.</p>
+        </th>
+        <th><img class="david" src="david_about_me.png" height="627" width="623"/></th>
+
+        <th><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie, lacus vitae pellentesque
+            finibus, magna felis hendrerit sapien, quis gravida ipsum augue nec leo. Maecenas faucibus nibh in metus
+            gravida eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat scelerisque
+            erat sed aliquam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Ut eu cursus nisl, in consequat ligula. Suspendisse eget mi at eros commodo varius in sed leo.
+            Maecenas non fringilla ipsum. Pellentesque at ultricies quam. Pellentesque congue, tellus eget fringilla
+            tristique, nisl metus mollis urna, nec rutrum libero lacus eu elit. Suspendisse tincidunt, mi ut
+            pulvinar rhoncus, orci odio suscipit massa, nec sodales augue neque vel urna. Suspendisse potenti. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim condimentum nibh quis iaculis.
+            Aliquam erat volutpat. Mauris maximus cursus augue eu tristique.</p>
+            <button class="contact">Contact me</button>
+        </th>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
